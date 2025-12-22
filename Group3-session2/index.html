@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <form autocomplete="off" method="post" action="success.html">
+        <label for="userName">First Name</label>
+        <input type="text" id="userName" required name="userName" autocomplete="off"> <br>
+        <label for="userEmail">Email</label>
+        <input type="email" id="userEmail"  name="userEmail"> <br>
+        <label>Password</label>
+        <input type="password" placeholder="enter your password" autofocus> 
+        <br>
+        <label>Shipping Area</label>
+        <input type="text" name="shippingArea" value="Alex" disabled>
+        <input type="text" name="shippingArea" value="Alex" readonly>
+
+        <br>
+
+        <!-- <label>Courses</label> -->
+        <select name="courses" multiple>
+            <option disabled selected>Choose your course</option>
+            <option value="0">Frontend</option>
+            <option value="1" >Backend</option>
+            <option value="2">Network</option>
+        </select>
+        <br>
+
+        <!-- datalist ==> search -->
+
+        <input type="file" accept="image/*" multiple>
+        <br>
+
+        <!-- min , max  -->
+        <input type="range" name="range"  value="0">
+
+        <input type="date" >
+        <input type="datetime-local" name="" id="">
+        <input type="month" name="" id="">
+
+        <input type="color">
+
+
+        <textarea rows="5" cols="40" placeholder="message"></textarea>
+
+
+
+
+        
+
+
+
+        
+
+
+
+        <br>
+        <button>Register</button>
+        <input type="reset" value="Clear Data">
+        <button type="reset">Clear Data from Form</button>
+
+    </form>
+
+
+        <input type="reset" value="Clear Data outsdie the form">
+
+    
+</body>
+</html>

@@ -1,0 +1,2 @@
+-- Block Element ==> h1:h6 , p , table , ul , ol ,li
+-- inline Element ==> img , a , span , text formatting
