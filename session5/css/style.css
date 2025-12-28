@@ -59,6 +59,20 @@ ul{
     color: white;
 }
 
+.hr-white{
+    margin: 3% auto;
+    width: 10%;
+    border: 1px solid white;
+}
+.btn-transparent{
+    padding: 1%;
+    font-size: 20px;
+    margin-top: 3%;
+    background-color: transparent;
+    color: white;
+    border: 2px solid;
+}
+
 /* custom style */
 
 nav ul{
@@ -71,5 +85,20 @@ nav ul{
     background-color: white;
     padding: 2%;
     /* display: inline-block; */
+}
+
+.banner{
+    background-image: url(../images/natural.jpg);
+    /* height: 400px; */
+    /* cover  contain */
+    background-size: 100% 100%;
+    text-align: center;
+
+}
+
+.overlay{
+    background-color: #0000004d;
+    height: 100%;
+    padding: 5% 0%;
 }
 
