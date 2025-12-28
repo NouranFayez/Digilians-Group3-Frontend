@@ -1,0 +1,75 @@
+/* reset style */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+ul{
+    list-style: none;
+}
+
+
+
+/* global style */
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+.bg-light{
+    background-color: rgb(233, 233, 233);
+}
+.bg-dark{
+    background-color: rgb(64, 63, 63);
+}
+
+.padding-top-bottom{
+    padding: 4% 0%;
+}
+
+
+
+.d-flex{
+    display: flex;
+    /* flex-start (default) flex-end center space-around space-evenly  */
+    justify-content: space-between;
+    /* no-wrap */
+    flex-wrap : wrap;
+    /* flex-start flex-end center strtech (default) */
+    align-items: center;
+    /* flex-direction ==> row (default) row-reverse column column-reverse */
+}
+.display-flex{
+    display: flex;
+}
+
+.align-items-center{
+    align-items: center;
+}
+.justify-content-between{
+    justify-content: space-between;
+}
+.text-white{
+    color: white;
+}
+
+/* custom style */
+
+nav ul{
+    /* column-gap: 20px; */
+        width: 30%;
+}
+
+.card{
+    width: 30%;
+    background-color: white;
+    padding: 2%;
+    /* display: inline-block; */
+}
+
