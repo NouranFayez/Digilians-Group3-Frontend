@@ -1,0 +1,170 @@
+/* reset style */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    list-style: none;
+}
+
+
+
+/* global style */
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+.bg-light {
+    background-color: rgb(233, 233, 233);
+}
+
+.bg-dark {
+    background-color: rgb(64, 63, 63);
+}
+
+.padding-top-bottom {
+    padding: 4% 0%;
+}
+
+
+
+.d-flex {
+    display: flex;
+    /* flex-start (default) flex-end center space-around space-evenly  */
+    justify-content: space-between;
+    /* no-wrap */
+    flex-wrap: wrap;
+    /* flex-start flex-end center strtech (default) */
+    align-items: center;
+    /* flex-direction ==> row (default) row-reverse column column-reverse */
+}
+
+.display-flex {
+    display: flex;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.justify-content-between {
+    justify-content: space-between;
+}
+
+.text-white {
+    color: white;
+}
+
+.hr-white {
+    margin: 3% auto;
+    width: 10%;
+    border: 1px solid white;
+}
+
+.btn-transparent {
+    padding: 1%;
+    font-size: 20px;
+    margin-top: 3%;
+    background-color: transparent;
+    color: white;
+    border: 2px solid;
+}
+
+/* custom style */
+nav {
+    position: sticky;
+    width: 100%;
+    top: 0;
+        z-index: 99999;
+}
+
+nav ul {
+    /* column-gap: 20px; */
+    width: 30%;
+}
+
+.card {
+    width: 30%;
+    background-color: white;
+    padding: 2%;
+    /* display: inline-block; */
+}
+
+.banner {
+    background-image: url(../images/natural.jpg);
+    /* height: 400px; */
+    /* cover  contain */
+    background-size: 100% 100%;
+    text-align: center;
+
+}
+
+.overlay {
+    background-color: #0000004d;
+    height: 100%;
+    padding: 5% 0%;
+}
+
+#up-arrow {
+    font-size: 30px;
+    background: black;
+    color: white;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    text-align: center;
+    /* padding-top: 1%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 5%;
+    right: 94px;
+}
+
+header {
+    padding: 1%;
+    background-color: antiquewhite;
+}
+
+.position-card {
+    width: 40%;
+    position: relative;
+
+}
+
+.position-card img {
+    width: 100%;
+}
+
+.position-card a {
+    background-color: antiquewhite;
+    color: black;
+    position: absolute;
+    left: 9px;
+    top: 11px;
+}
+
+.position-relative {
+    position: relative;
+
+}
+.card-img-overlay{
+    background-color: rgba(0, 0, 0, 0.685);
+    height: 100%;
+    position: absolute;
+    /* z-index: 1; */
+    width: 100%;
+    top: 0;
+}
+
+/* position ==> fixed stickey relative absolute static(default) */
+/* top bottom left right z-index */
