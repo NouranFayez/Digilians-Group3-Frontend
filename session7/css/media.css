@@ -1,0 +1,45 @@
+/* https://getbootstrap.com/docs/5.3/layout/breakpoints/ */
+
+/* Rule ==> @media @keyframes */
+/* type ==> print screen speetch */
+/* condition ==> max-width , min-width , range */
+/* breakpoint ==> screen size */
+
+
+/* 350 */
+
+/* // `lg` applies to medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) { 
+    .card{
+        width: 90%;
+    }
+ }
+
+
+/* 0 : 800  */
+@media (max-width:800px){
+    .card{
+        width: 45%;
+    }
+}
+
+/* 0 : 400 */
+@media (max-width:400px){
+    .card{
+        width: 100%;
+    }
+}
+
+@media (min-width:900px){
+    .card{
+        background-color: teal ;
+        color: white;
+    }
+}
+
+@media (min-width:400px) and (max-width:800px){
+    .card{
+        background-color: goldenrod;
+        color: white;
+    }
+}
