@@ -3,3 +3,19 @@ dataType ==> string , number , boolean , undefined , null
 operations ==> Mathematical Operators (+ - / * ** % ++ --)
                Assignment Operators (+= /= -= *= %=) ==> search
                Comparison Operators (> >= < <= == === != !==)
+               logical Operators (&& || !)
+               unary Operators (typeof) ==> search
+               ternary Operators ==> search
+
+
+if condition  
+
+/////////// task 
+// var degree = prompt('enter your degree')
+// null
+// empty String
+// 90 - 100 ==> A
+// 80 - 90 ==> B 
+// 70 - 80 ==> c 
+// < 70 ==> F
+// > 100 ==> invalid degree
