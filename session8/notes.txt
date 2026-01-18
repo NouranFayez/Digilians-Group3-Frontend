@@ -19,3 +19,5 @@ if condition
 // 70 - 80 ==> c 
 // < 70 ==> F
 // > 100 ==> invalid degree
+
+loop ==> for , while , do-while
