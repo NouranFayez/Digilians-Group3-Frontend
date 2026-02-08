@@ -47,3 +47,19 @@ function handleChange(type , element){
     element.style.background = "lightgray" :
     element.style.background = "teal"
 }
+
+function handleLink(ele){
+    var list = document.querySelectorAll('li')
+    list.forEach(item=>{
+        item.style.color = "black"
+    })
+    ele.style.color = "blue"
+}
+
+var customInput = document.getElementById('userName')
+
+customInput.addEventListener("input" , ()=>{
+    console.log(customInput.value)
+})
+
+// var - let const 
