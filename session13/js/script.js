@@ -27,3 +27,23 @@ function handleChangeImage(){
     img[0].src = "images/2.jpg"
 
 }
+
+// document.querySelector('.div_style a')
+// document.querySelectorAll('.div_style a')
+
+
+function handleMouseEnter(){
+    var div = document.querySelector("#custom-card")
+    div.style.background = "lightgray"
+}
+function handleMouseLeave(){
+    var div = document.querySelector("#custom-card")
+    div.style.background = "teal"
+}
+
+function handleChange(type , element){
+    // var div = document.querySelector("#custom-card");
+    (type == 'mouseenter') ?
+    element.style.background = "lightgray" :
+    element.style.background = "teal"
+}
