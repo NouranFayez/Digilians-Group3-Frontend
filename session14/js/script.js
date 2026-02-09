@@ -44,6 +44,8 @@ myForm.addEventListener('submit', (e) => {
     // console.log('submitting')
     console.log(e.target.elements.customUserEmail.value)
     console.log(e.target.elements.customUserName.value)
+
+    
     let tr = document.createElement("tr")
     let tdName = document.createElement("td")
     let tdEmail = document.createElement("td")
