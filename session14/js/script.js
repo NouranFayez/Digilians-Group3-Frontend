@@ -47,11 +47,17 @@ myForm.addEventListener('submit', (e) => {
     let tr = document.createElement("tr")
     let tdName = document.createElement("td")
     let tdEmail = document.createElement("td")
+    let tdAction = document.createElement("td")
+    let btn = document.createElement('button')
+    btn.innerText = "Edit User"
     tdName.innerText = e.target.elements.customUserName.value
     tdEmail.innerText = e.target.elements.customUserEmail.value
-    
+
+    tdAction.appendChild(btn)
+
     tr.appendChild(tdName)
     tr.appendChild(tdEmail)
+    tr.appendChild(tdAction)
 
     tableBody.appendChild(tr)
 
