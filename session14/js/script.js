@@ -62,7 +62,15 @@ myForm.addEventListener('submit', (e) => {
     tableBody.appendChild(tr)
 
     console.log(tr)
+
+    btn.addEventListener('click', () => {
+        console.log('click')
+    })
 })
+
+
+
+// tableBody.innerHTML = `<tr><td>ertyui</td><td>fghjk@wsdfgh</td><td><button>Edit User</button></td></tr>`
 
 
 
