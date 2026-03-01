@@ -1,0 +1,7 @@
+.carousel-item img{
+    height: 500px;
+}
+
+.nav-pills .nav-link.active{
+    background-color: maroon;
+}
