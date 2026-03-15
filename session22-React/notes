@@ -1,0 +1,22 @@
+-- npm create vite@latest  ==> create the react project
+-- npm run dev ==> run the project
+
+-- npm install react-router-dom
+-- npm install bootstrap
+-- create components ==> Navbar , Footer , Products , Contact , Home
+-- Layout
+-- Outlet
+-- router
+http://localhost:5174 ==> Home
+http://localhost:5174/Products ==> Products
+http://localhost:5174/contact ==> contact
+
+-- Link tag
+
+
+
+==> home page
+    shop page
+    single Product
+    login / register
+    profile
